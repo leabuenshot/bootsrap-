@@ -1,0 +1,16 @@
+$main-color:grey;
+$text-color: black;
+$defualt-font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+"Droid Sans Mono", monospace, monospace;
+$pic-margin: 7%;
+
+body {
+    background: $main-color;
+}
+p {
+    font-family: $defualt-font-family;
+    color: $text-color;
+}
+.pilots {
+    margin-top: $pic-margin;
+}
